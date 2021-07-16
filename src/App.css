@@ -1,0 +1,78 @@
+ 
+ body{
+    background-color: #d1d1cb;
+}
+
+.card-header{
+    background-color: rgb(41,37,37);
+    color:whitesmoke;
+}
+.profileContainer, .spinnerPage{
+    min-width: 350px;
+    min-height: 400px;
+    background-color: rgb(202,226,218);
+    border-radius: 10px;
+}
+.spinnerPage{
+    background-color: white;
+}
+
+.topContainer{
+    height: 80px;
+    background-color: rgb(8,8,34);
+}
+.imageContainer{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translateY(30%);
+}
+.imageContainer img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.downContainer{
+    height: 180px;
+    /* background-color: red; */
+    margin-top: 80px;
+}
+.profileContent{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+.profileContent .fa, .profileContent h5 {
+    font-size: 25px;
+    color: rgb(41,37,37);
+    margin-right: 20px;
+
+}
+.profileContent h5{
+  font-family: fantasy;
+
+}
+.span{
+    font-size: 20px;
+    color: rgb(41,37,37);
+    margin-right: 20px;
+    font-family: fantasy;
+  
+  }
+.btns{
+    background-color: rgb(8,8,34);
+    color: whitesmoke;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 6px 10px;
+}
